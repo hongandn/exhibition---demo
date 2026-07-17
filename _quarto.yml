@@ -6,6 +6,10 @@ project:
     - project-log.qmd
     - wikidata.qmd
     - wikidata-item.ipynb
+    - artist-datamodel.qmd
+    - exhibition-datamodel.qmd
+    - dnb-catalogue-datamodel.qmd
+    - item-in-exhibition-datamodel.qmd
 
 website:
   title: "BIM Prototype 02"
