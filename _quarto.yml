@@ -11,6 +11,14 @@ website:
   title: "BIM Prototype 02"
   navbar:
     left:
+      - href: artist-datamodel.qmd
+        text: Künstler-Datenmodell
+      - href: exhibition-datamodel.qmd
+        text: Ausstellungs-Datenmodell
+      - href: dnb-catalogue-datamodel.qmd
+        text: DNB-Katalog-Datenmodell 
+      - href: item-in-exhibition-datamodel.qmd
+        text: Objekt im Ausstellungs-Datenmodell
       - href: index.qmd
         text: Home
       - href: project-log.qmd
