@@ -130,7 +130,7 @@
     "href": "wikidata-item.html",
     "title": "Wikidata Item Profile",
     "section": "",
-    "text": "This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.\nTo profile another item, change the item_id value in Cell 3 and re-render the site.\n\n\n\nSELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel\n\n\n\n\n8\n\n\n\n\n\n\n\n\n  \n    \n    Item: Q138638019 · Statements: 8 · Generated: 2026-07-19 19:13 UTC\n    Open item on Wikidata\n  \n\n  \n    \n      \n      catalog1end time1instance of1location1main subject1official website1start time1title1\n    \n    \n      \n      \n    \n      \n        \n        \n      \n      \n        5 Entity values\n        3 Literal values\n      \n    \n    \n    \n  \n\n  \n    \n            \n              \n              Sven-Julien Kanclerski: Sprengel Preis 2025 – Niedersachsen in Europa\n            \n            \n            \n              \n              2026-03-01T00:00:00Z\n            \n            \n            \n              \n              exhibition\n            \n            \n            \n              \n              Sprengel Museum\n            \n            \n            \n              \n              Sven-Julien Kanclerski\n            \n            \n            \n              \n              https://www.sprengel-museum.de/ausstellungen/archiv/sven-julien-kanclerski\n            \n            \n            \n              \n              2025-11-22T00:00:00Z\n            \n            \n            \n              \n              The Universal (Trumpets Starting to Play)"
+    "text": "This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.\nTo profile another item, change the item_id value in Cell 3 and re-render the site.\n\n\n\nSELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel\n\n\n\n\n8\n\n\n\n\n\n\n\n\n  \n    \n    Item: Q138638019 · Statements: 8 · Generated: 2026-07-19 20:18 UTC\n    Open item on Wikidata\n  \n\n  \n    \n      \n      catalog1end time1instance of1location1main subject1official website1start time1title1\n    \n    \n      \n      \n    \n      \n        \n        \n      \n      \n        5 Entity values\n        3 Literal values\n      \n    \n    \n    \n  \n\n  \n    \n            \n              \n              Sven-Julien Kanclerski: Sprengel Preis 2025 – Niedersachsen in Europa\n            \n            \n            \n              \n              2026-03-01T00:00:00Z\n            \n            \n            \n              \n              exhibition\n            \n            \n            \n              \n              Sprengel Museum\n            \n            \n            \n              \n              Sven-Julien Kanclerski\n            \n            \n            \n              \n              https://www.sprengel-museum.de/ausstellungen/archiv/sven-julien-kanclerski\n            \n            \n            \n              \n              2025-11-22T00:00:00Z\n            \n            \n            \n              \n              The Universal (Trumpets Starting to Play)"
   },
   {
     "objectID": "wikidata-item.html#sparql-query-used-for-q138638019",
@@ -193,7 +193,7 @@
     "href": "wikidata.html",
     "title": "Wikidata",
     "section": "",
-    "text": "This section documents Wikidata workflows, queries, and references for the project.\n\n\n\nOpen the rendered profile page: Wikidata Item Profile\n\n\n\n\nThe profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
+    "text": "This section documents Wikidata workflows, queries, and references for the project.\n\n\n\nOpen the rendered profile page: Wikidata Item Profile\n\n\n\n\nThe relationship graph below visualizes the item, its properties, and the linked entities from the existing SPARQL results used by the notebook profile.\n\n\n\n\nThe profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
   },
   {
     "objectID": "wikidata.html#item-profile-page",
@@ -201,6 +201,13 @@
     "title": "Wikidata",
     "section": "",
     "text": "Open the rendered profile page: Wikidata Item Profile"
+  },
+  {
+    "objectID": "wikidata.html#network-diagram",
+    "href": "wikidata.html#network-diagram",
+    "title": "Wikidata",
+    "section": "",
+    "text": "The relationship graph below visualizes the item, its properties, and the linked entities from the existing SPARQL results used by the notebook profile."
   },
   {
     "objectID": "wikidata.html#how-data-is-retrieved",

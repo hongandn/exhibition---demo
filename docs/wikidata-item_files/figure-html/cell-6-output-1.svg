@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="900" viewBox="0 0 1320 900" role="img" aria-labelledby="title desc">
+  <title id="title">Wikidata relationship network for Q138638019</title>
+  <desc id="desc">A network diagram showing the item Q138638019 connected to its properties and linked values derived from the notebook results.</desc>
+  <rect x="0" y="0" width="1320" height="900" fill="#f8fafc"/>
+  <rect x="40" y="30" width="1240" height="840" rx="24" fill="#ffffff" stroke="#dbe4ee" stroke-width="2"/>
+
+  <text x="660" y="78" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Wikidata relationship network</text>
+  <text x="660" y="108" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#475569">Item Q138638019 · derived from the notebook profile results</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <line x1="260" y1="385" x2="360" y2="160" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="240" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="320" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="400" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="480" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="560" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="640" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="260" y1="385" x2="360" y2="720" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="80" y="335" width="180" height="100" rx="18" fill="#0f766e"/>
+    <text x="170" y="372" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Q138638019</text>
+    <text x="170" y="398" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#d1fae5">Item</text>
+  </g>
+
+  <g>
+    <rect x="360" y="120" width="180" height="80" rx="16" fill="#2563eb"/>
+    <text x="450" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">title</text>
+    <text x="450" y="174" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+  </g>
+  <rect x="360" y="200" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">start time</text>
+  <text x="450" y="254" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="280" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">end time</text>
+  <text x="450" y="334" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="360" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="392" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">official website</text>
+  <text x="450" y="414" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="440" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="472" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">catalog</text>
+  <text x="450" y="494" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="520" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="552" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">instance of</text>
+  <text x="450" y="574" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="600" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="632" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">location</text>
+  <text x="450" y="654" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <rect x="360" y="680" width="180" height="80" rx="16" fill="#2563eb"/>
+  <text x="450" y="712" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">main subject</text>
+  <text x="450" y="734" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#dbeafe">property</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <line x1="540" y1="160" x2="740" y2="160" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="240" x2="740" y2="240" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="320" x2="740" y2="320" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="400" x2="740" y2="400" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="480" x2="740" y2="480" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="560" x2="740" y2="560" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="640" x2="740" y2="640" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="540" y1="720" x2="740" y2="720" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <rect x="740" y="120" width="260" height="80" rx="16" fill="#f59e0b"/>
+  <text x="870" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">The Universal</text>
+  <text x="870" y="174" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#78350f">literal value</text>
+
+  <rect x="740" y="200" width="260" height="80" rx="16" fill="#f59e0b"/>
+  <text x="870" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2025-11-22T00:00:00Z</text>
+  <text x="870" y="254" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#78350f">literal value</text>
+
+  <rect x="740" y="280" width="260" height="80" rx="16" fill="#f59e0b"/>
+  <text x="870" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2026-03-01T00:00:00Z</text>
+  <text x="870" y="334" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#78350f">literal value</text>
+
+  <rect x="740" y="360" width="260" height="80" rx="16" fill="#0f766e"/>
+  <text x="870" y="392" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">sprengel-museum.de/…</text>
+  <text x="870" y="414" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d1fae5">entity / URL</text>
+
+  <rect x="740" y="440" width="260" height="80" rx="16" fill="#0f766e"/>
+  <text x="870" y="472" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Sven-Julien Kanclerski: Sprengel Preis 2025</text>
+  <text x="870" y="494" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d1fae5">entity</text>
+
+  <rect x="740" y="520" width="260" height="80" rx="16" fill="#0f766e"/>
+  <text x="870" y="552" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">exhibition</text>
+  <text x="870" y="574" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d1fae5">entity</text>
+
+  <rect x="740" y="600" width="260" height="80" rx="16" fill="#0f766e"/>
+  <text x="870" y="632" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Sprengel Museum</text>
+  <text x="870" y="654" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d1fae5">entity</text>
+
+  <rect x="740" y="680" width="260" height="80" rx="16" fill="#0f766e"/>
+  <text x="870" y="712" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Sven-Julien Kanclerski</text>
+  <text x="870" y="734" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d1fae5">entity</text>
+
+  <rect x="100" y="780" width="1120" height="54" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="140" y="808" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#334155">Legend</text>
+  <rect x="220" y="788" width="18" height="18" rx="4" fill="#0f766e"/>
+  <text x="248" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#334155">Item / entity node</text>
+  <rect x="380" y="788" width="18" height="18" rx="4" fill="#2563eb"/>
+  <text x="408" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#334155">Property node</text>
+  <rect x="540" y="788" width="18" height="18" rx="4" fill="#f59e0b"/>
+  <text x="568" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#334155">Literal value node</text>
+</svg>

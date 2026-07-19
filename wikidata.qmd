@@ -10,6 +10,12 @@ This section documents Wikidata workflows, queries, and references for the proje
 
 - Open the rendered profile page: [Wikidata Item Profile](wikidata-item.html)
 
+## Network diagram
+
+The relationship graph below visualizes the item, its properties, and the linked entities from the existing SPARQL results used by the notebook profile.
+
+![](network-diagram.svg)
+
 ## How data is retrieved
 
 The profile page is generated from `wikidata-item.ipynb`, which:
