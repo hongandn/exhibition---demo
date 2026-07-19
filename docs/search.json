@@ -1,89 +1,5 @@
 [
   {
-    "objectID": "wikidata-item.html",
-    "href": "wikidata-item.html",
-    "title": "Wikidata Item Profile",
-    "section": "",
-    "text": "This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.\nTo profile another item, change the item_id value in Cell 3 and re-render the site.\n\n\n\nSELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel\n\n\n\n\n8\n\n\n\n\n\n\n\n\n  \n    \n    Item: Q138638019 · Statements: 8 · Generated: 2026-04-23 11:05 UTC\n    Open item on Wikidata\n  \n\n  \n    \n      \n      catalog1end time1instance of1location1main subject1official website URL1start time1title1\n    \n    \n      \n      \n    \n      \n        \n        \n      \n      \n        5 Entity values\n        3 Literal values\n      \n    \n    \n    \n  \n\n  \n    \n            \n              \n              Sven-Julien Kanclerski: Sprengel Preis 2025 – Niedersachsen in Europa\n            \n            \n            \n              \n              2026-03-01T00:00:00Z\n            \n            \n            \n              \n              exhibition\n            \n            \n            \n              \n              Sprengel Museum\n            \n            \n            \n              \n              Sven-Julien Kanclerski\n            \n            \n            \n              \n              https://www.sprengel-museum.de/ausstellungen/archiv/sven-julien-kanclerski\n            \n            \n            \n              \n              2025-11-22T00:00:00Z\n            \n            \n            \n              \n              The Universal (Trumpets Starting to Play)"
-  },
-  {
-    "objectID": "wikidata-item.html#sparql-query-used-for-q138638019",
-    "href": "wikidata-item.html#sparql-query-used-for-q138638019",
-    "title": "Wikidata Item Profile",
-    "section": "",
-    "text": "SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel"
-  },
-  {
-    "objectID": "project-log.html",
-    "href": "project-log.html",
-    "title": "Project Log",
-    "section": "",
-    "text": "Track important milestones and implementation notes here.\n\n\n\nInitialized Quarto website source files.\nAdded GitHub Pages deployment workflow.\nSet Quarto output directory to docs for GitHub Pages publishing.\nAdded notebook-backed item profile page for Wikidata item Q138547468.\nCreated reusable helper module wikidata_profile.py for query, fetch, and rendering logic.\nAdded visual summaries to the item profile page (top properties and value type breakdown).\nFixed Wikidata endpoint access by sending explicit HTTP headers in SPARQL requests.\nParameterized notebook workflow so item_id can be changed in one place.\nEnabled collapsible code blocks in rendered notebook HTML.\nInitialized git repository, pushed to mrchristian/prototype, and connected origin.\nFixed GitHub Actions Pages setup failure by enabling automatic Pages enablement in workflow.\nAdded manual workflow_dispatch deployment instructions in project documentation.\n\n\n\n\nUse these steps to publish and re-publish the site to GitHub Pages.\n\nCommit and push updates to main.\nIn GitHub, open Settings -&gt; Pages.\nUnder Build and deployment, set Source to GitHub Actions.\nConfirm the workflow file .github/workflows/publish.yml is present.\nWait for the Publish Quarto Site workflow to complete.\n\n\n\n\nOpen Actions in GitHub.\nSelect Publish Quarto Site.\nClick Run workflow and choose main.\n\n\n\n\n\nRe-check Settings -&gt; Pages is enabled for GitHub Actions.\nRe-run the workflow after enabling Pages."
-  },
-  {
-    "objectID": "project-log.html#section",
-    "href": "project-log.html#section",
-    "title": "Project Log",
-    "section": "",
-    "text": "Initialized Quarto website source files.\nAdded GitHub Pages deployment workflow.\nSet Quarto output directory to docs for GitHub Pages publishing.\nAdded notebook-backed item profile page for Wikidata item Q138547468.\nCreated reusable helper module wikidata_profile.py for query, fetch, and rendering logic.\nAdded visual summaries to the item profile page (top properties and value type breakdown).\nFixed Wikidata endpoint access by sending explicit HTTP headers in SPARQL requests.\nParameterized notebook workflow so item_id can be changed in one place.\nEnabled collapsible code blocks in rendered notebook HTML.\nInitialized git repository, pushed to mrchristian/prototype, and connected origin.\nFixed GitHub Actions Pages setup failure by enabling automatic Pages enablement in workflow.\nAdded manual workflow_dispatch deployment instructions in project documentation."
-  },
-  {
-    "objectID": "project-log.html#publishing-instructions",
-    "href": "project-log.html#publishing-instructions",
-    "title": "Project Log",
-    "section": "",
-    "text": "Use these steps to publish and re-publish the site to GitHub Pages.\n\nCommit and push updates to main.\nIn GitHub, open Settings -&gt; Pages.\nUnder Build and deployment, set Source to GitHub Actions.\nConfirm the workflow file .github/workflows/publish.yml is present.\nWait for the Publish Quarto Site workflow to complete.\n\n\n\n\nOpen Actions in GitHub.\nSelect Publish Quarto Site.\nClick Run workflow and choose main.\n\n\n\n\n\nRe-check Settings -&gt; Pages is enabled for GitHub Actions.\nRe-run the workflow after enabling Pages."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138547468\n\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
-  },
-  {
-    "objectID": "index.html#featured-page",
-    "href": "index.html#featured-page",
-    "title": "Home",
-    "section": "",
-    "text": "Wikidata Item Profile: Q138547468"
-  },
-  {
-    "objectID": "index.html#changelog",
-    "href": "index.html#changelog",
-    "title": "Home",
-    "section": "",
-    "text": "Initialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log."
-  },
-  {
-    "objectID": "index.html#next-steps",
-    "href": "index.html#next-steps",
-    "title": "Home",
-    "section": "",
-    "text": "Add your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
-  },
-  {
-    "objectID": "wikidata.html",
-    "href": "wikidata.html",
-    "title": "Wikidata",
-    "section": "",
-    "text": "This section documents Wikidata workflows, queries, and references for the project.\n\n\n\nOpen the rendered profile page: Wikidata Item Profile\n\n\n\n\nThe profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
-  },
-  {
-    "objectID": "wikidata.html#item-profile-page",
-    "href": "wikidata.html#item-profile-page",
-    "title": "Wikidata",
-    "section": "",
-    "text": "Open the rendered profile page: Wikidata Item Profile"
-  },
-  {
-    "objectID": "wikidata.html#how-data-is-retrieved",
-    "href": "wikidata.html#how-data-is-retrieved",
-    "title": "Wikidata",
-    "section": "",
-    "text": "The profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
-  },
-  {
     "objectID": "item-in-exhibition-datamodel.html",
     "href": "item-in-exhibition-datamodel.html",
     "title": "Item in Exhibition Data Model",
@@ -208,6 +124,90 @@
     "title": "Exhibition Data Model",
     "section": "Attribution",
     "text": "Attribution\nThis data model documentation was created with assistance from GitHub Copilot (powered by Claude Haiku 4.5). The model was aligned against sector standards including CIDOC CRM v7.1.3, Wikibase4Research, and Wikidata WikiProject Exhibitions guidelines through AI-assisted analysis and formatting."
+  },
+  {
+    "objectID": "wikidata-item.html",
+    "href": "wikidata-item.html",
+    "title": "Wikidata Item Profile",
+    "section": "",
+    "text": "This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.\nTo profile another item, change the item_id value in Cell 3 and re-render the site.\n\n\n\nSELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel\n\n\n\n\n8\n\n\n\n\n\n\n\n\n  \n    \n    Item: Q138638019 · Statements: 8 · Generated: 2026-07-19 19:13 UTC\n    Open item on Wikidata\n  \n\n  \n    \n      \n      catalog1end time1instance of1location1main subject1official website1start time1title1\n    \n    \n      \n      \n    \n      \n        \n        \n      \n      \n        5 Entity values\n        3 Literal values\n      \n    \n    \n    \n  \n\n  \n    \n            \n              \n              Sven-Julien Kanclerski: Sprengel Preis 2025 – Niedersachsen in Europa\n            \n            \n            \n              \n              2026-03-01T00:00:00Z\n            \n            \n            \n              \n              exhibition\n            \n            \n            \n              \n              Sprengel Museum\n            \n            \n            \n              \n              Sven-Julien Kanclerski\n            \n            \n            \n              \n              https://www.sprengel-museum.de/ausstellungen/archiv/sven-julien-kanclerski\n            \n            \n            \n              \n              2025-11-22T00:00:00Z\n            \n            \n            \n              \n              The Universal (Trumpets Starting to Play)"
+  },
+  {
+    "objectID": "wikidata-item.html#sparql-query-used-for-q138638019",
+    "href": "wikidata-item.html#sparql-query-used-for-q138638019",
+    "title": "Wikidata Item Profile",
+    "section": "",
+    "text": "SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138638019 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel"
+  },
+  {
+    "objectID": "project-log.html",
+    "href": "project-log.html",
+    "title": "Project Log",
+    "section": "",
+    "text": "Track important milestones and implementation notes here.\n\n\n\nInitialized Quarto website source files.\nAdded GitHub Pages deployment workflow.\nSet Quarto output directory to docs for GitHub Pages publishing.\nAdded notebook-backed item profile page for Wikidata item Q138547468.\nCreated reusable helper module wikidata_profile.py for query, fetch, and rendering logic.\nAdded visual summaries to the item profile page (top properties and value type breakdown).\nFixed Wikidata endpoint access by sending explicit HTTP headers in SPARQL requests.\nParameterized notebook workflow so item_id can be changed in one place.\nEnabled collapsible code blocks in rendered notebook HTML.\nInitialized git repository, pushed to mrchristian/prototype, and connected origin.\nFixed GitHub Actions Pages setup failure by enabling automatic Pages enablement in workflow.\nAdded manual workflow_dispatch deployment instructions in project documentation.\n\n\n\n\nUse these steps to publish and re-publish the site to GitHub Pages.\n\nCommit and push updates to main.\nIn GitHub, open Settings -&gt; Pages.\nUnder Build and deployment, set Source to GitHub Actions.\nConfirm the workflow file .github/workflows/publish.yml is present.\nWait for the Publish Quarto Site workflow to complete.\n\n\n\n\nOpen Actions in GitHub.\nSelect Publish Quarto Site.\nClick Run workflow and choose main.\n\n\n\n\n\nRe-check Settings -&gt; Pages is enabled for GitHub Actions.\nRe-run the workflow after enabling Pages."
+  },
+  {
+    "objectID": "project-log.html#section",
+    "href": "project-log.html#section",
+    "title": "Project Log",
+    "section": "",
+    "text": "Initialized Quarto website source files.\nAdded GitHub Pages deployment workflow.\nSet Quarto output directory to docs for GitHub Pages publishing.\nAdded notebook-backed item profile page for Wikidata item Q138547468.\nCreated reusable helper module wikidata_profile.py for query, fetch, and rendering logic.\nAdded visual summaries to the item profile page (top properties and value type breakdown).\nFixed Wikidata endpoint access by sending explicit HTTP headers in SPARQL requests.\nParameterized notebook workflow so item_id can be changed in one place.\nEnabled collapsible code blocks in rendered notebook HTML.\nInitialized git repository, pushed to mrchristian/prototype, and connected origin.\nFixed GitHub Actions Pages setup failure by enabling automatic Pages enablement in workflow.\nAdded manual workflow_dispatch deployment instructions in project documentation."
+  },
+  {
+    "objectID": "project-log.html#publishing-instructions",
+    "href": "project-log.html#publishing-instructions",
+    "title": "Project Log",
+    "section": "",
+    "text": "Use these steps to publish and re-publish the site to GitHub Pages.\n\nCommit and push updates to main.\nIn GitHub, open Settings -&gt; Pages.\nUnder Build and deployment, set Source to GitHub Actions.\nConfirm the workflow file .github/workflows/publish.yml is present.\nWait for the Publish Quarto Site workflow to complete.\n\n\n\n\nOpen Actions in GitHub.\nSelect Publish Quarto Site.\nClick Run workflow and choose main.\n\n\n\n\n\nRe-check Settings -&gt; Pages is enabled for GitHub Actions.\nRe-run the workflow after enabling Pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138547468\n\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
+  },
+  {
+    "objectID": "index.html#featured-page",
+    "href": "index.html#featured-page",
+    "title": "Home",
+    "section": "",
+    "text": "Wikidata Item Profile: Q138547468"
+  },
+  {
+    "objectID": "index.html#changelog",
+    "href": "index.html#changelog",
+    "title": "Home",
+    "section": "",
+    "text": "Initialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log."
+  },
+  {
+    "objectID": "index.html#next-steps",
+    "href": "index.html#next-steps",
+    "title": "Home",
+    "section": "",
+    "text": "Add your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
+  },
+  {
+    "objectID": "wikidata.html",
+    "href": "wikidata.html",
+    "title": "Wikidata",
+    "section": "",
+    "text": "This section documents Wikidata workflows, queries, and references for the project.\n\n\n\nOpen the rendered profile page: Wikidata Item Profile\n\n\n\n\nThe profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
+  },
+  {
+    "objectID": "wikidata.html#item-profile-page",
+    "href": "wikidata.html#item-profile-page",
+    "title": "Wikidata",
+    "section": "",
+    "text": "Open the rendered profile page: Wikidata Item Profile"
+  },
+  {
+    "objectID": "wikidata.html#how-data-is-retrieved",
+    "href": "wikidata.html#how-data-is-retrieved",
+    "title": "Wikidata",
+    "section": "",
+    "text": "The profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
   },
   {
     "objectID": "artist-datamodel.html",
