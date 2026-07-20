@@ -11,6 +11,12 @@ project:
     - dnb-catalogue-datamodel.qmd
     - item-in-exhibition-datamodel.qmd
 
+metadata:
+  author:
+    - name: Hong An Dinh
+      orcid: 0009-0004-5752-0370
+      email: hong-an.dinh@stud.hs-hannover.de
+
 website:
   title: "BIM Prototype 02"
   navbar:
