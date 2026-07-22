@@ -1,5 +1,8 @@
 cff-version: 1.2.0
 abstract: "A standardized data model framework for exhibitions aligned with CIDOC CRM"
+message: >-
+  If you use this software or documentation, please cite it using the
+  metadata from this file.
 title: "BIM Prototype 02 Quarto Website"
 authors:
   - family-names: "Dinh"
